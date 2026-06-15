@@ -3,27 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Bro</title>
-
+    <title>Docker Testing Success!</title>
     <style>
         body {
-            margin: 0;
-            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #f4f4f4;
-            font-family: Arial, sans-serif;
+            height: 100vh;
+            margin: 0;
         }
-
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1e293b;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            border: 2px solid #38bdf8;
+        }
         h1 {
-            color: #007bff;
-            font-size: 4rem;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+        .badge {
+            background-color: #10b981;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 15px;
         }
     </style>
 </head>
 <body>
-    <h1>Hello!</h1>
+
+    <div class="container">
+        <h1>Hello From Docker! </h1>
+        <h2>Congratulations! Your Nginx container is up and running.</h2>
+        <h3>Welcome to your Dockerized Nginx App</h3>
+        <h1>Updated</h1>
+        <h2>Actions GitHub2</h2>
+        <h2>Now! our app is running in Docker! DEV part and OPs Part</h2>
+        <h2>Ready for Deployment</h2>
+        <h2>Ready for Operations</h2>
+        <div>
+            <h3>Container Information about</h3>
+            <ul>
+                <li><strong>Container ID:</strong> abc123def456</li>
+                <li><strong>Image:</strong> nginx:latest</li>
+                <li><strong>Status:</strong> Running</li>
+                <li><strong>Port Mapping:</strong> 80:80</li>
+            </ul>
+        </div>
+        <p>Your Nginx web server is running successfully inside a container.</p>
+        <div class="badge">Status: Live & Connected</div>
+    </div>
+
 </body>
 </html>
